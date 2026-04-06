@@ -17,7 +17,7 @@ Usage:
     model = build_baseline_model(input_shape=(224, 224, 3), num_classes=3)
     model.summary()
 
-Author : Ahmed
+Author : Ahmed Mohamed Abdelhady
 Project: Lung Cancer Detection using CNN + Transfer Learning
 ─────────────────────────────────────────────────────────────────────────────
 """

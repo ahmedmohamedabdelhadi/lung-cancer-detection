@@ -16,7 +16,7 @@ Split strategy:
 Main function:
     get_data_generators() → returns (train_gen, val_gen, test_gen)
 
-Author : Ahmed
+Author : Ahmed Mohamed Abdelhady
 Project: Lung Cancer Detection using CNN + Transfer Learning
 ─────────────────────────────────────────────────────────────────────────────
 """

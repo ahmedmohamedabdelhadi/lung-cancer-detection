@@ -15,7 +15,7 @@ Purpose:
         Stage 1 — Feature extraction: frozen base, head only (5 epochs)
         Stage 2 — Fine-tuning: last 30 layers unfrozen (up to 25 epochs)
 
-Author : Ahmed
+Author : Ahmed Mohamed Abdelhady
 Project: Lung Cancer Detection using CNN + Transfer Learning
 ─────────────────────────────────────────────────────────────────────────────
 """

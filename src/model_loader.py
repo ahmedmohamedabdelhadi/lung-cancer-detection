@@ -27,7 +27,7 @@ Usage:
     from src.model_loader import load_model, load_all_models
     from src.model_loader import PREPROCESSING_FUNCTIONS
 
-Author : Ahmed
+Author : Ahmed Mohamed Abdelhady
 Project: Lung Cancer Detection using CNN + Transfer Learning
 ─────────────────────────────────────────────────────────────────────────────
 """

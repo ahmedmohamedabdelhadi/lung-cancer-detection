@@ -10,7 +10,7 @@ Purpose:
         preprocessing_function parameter (resnet50.preprocess_input),
         NOT inside the model.
 
-Author : Ahmed
+Author : Ahmed Mohamed Abdelhady
 Project: Lung Cancer Detection using CNN + Transfer Learning
 ─────────────────────────────────────────────────────────────────────────────
 """
