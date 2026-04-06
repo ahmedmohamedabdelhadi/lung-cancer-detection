@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python with lung_cancer Env",
+            "type": "shell",
+            "command": "conda",
+            "args": [
+                "run",
+                "-n",
+                "lung_cancer",
+                "python",
+                "${file}"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": ["$python"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}

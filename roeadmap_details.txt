@@ -1,0 +1,55 @@
+Phase 1 — EDA (Exploratory Data Analysis)
+Before touching a model, we look at the data. We'll count images per class, 
+visualize sample images from each class, check image sizes and formats,
+ and look for any obvious problems
+ (corrupted files, wrong labels, etc.). 
+ Think of it as "getting to know your dataset."
+
+
+Phase 2 — Preprocessing & Augmentation
+Raw images can't go straight into a model. We need to resize them to a consistent size, 
+normalize pixel values (scale from 0–255 down to 0–1), split the data into train/validation/test sets, 
+and apply augmentation — techniques like flipping 
+or rotating images to artificially create more variety so the model doesn't memorize the training data.
+
+
+Phase 3 — Baseline CNN
+We build a simple CNN from scratch ourselves. It won't be the best model,
+ but it gives us a benchmark — a number to beat. Every project needs this so you can show
+  "my transfer learning model improved accuracy from X% to Y%."
+
+
+Phase 4 — Transfer Learning (3 models)
+This is the main event. Instead of training from zero, we take EfficientNetB0, 
+InceptionV3, and ResNet50 — models already trained on millions of images — and retrain just the las
+t few layers on our lung cancer data. This is much faster and usually much more accurate, especially 
+with a limited GPU like your GTX 1650 Ti.
+
+
+Phase 5 — Evaluation & Comparison
+We measure every model fairly using the same metrics: accuracy, precision, recall,
+ F1-score, confusion matrix, and ROC curve. We then compare all four models (baseline + 3 transfer learning) 
+ in a clear table.
+
+
+Phase 6 — Grad-CAM (Explainability)
+This is what makes a medical AI project stand out. Grad-CAM is a technique that highlights 
+which part of the image the model focused on to make its decision. It produces a heatmap over
+ the original image — critical for medical use cases where you need to trust the model's reasoning,
+  not just its output.
+
+
+Phase 7 — Gradio UI
+Gradio is a super simple Python library that lets you build a web interface with very few lines of code.
+ The user uploads a lung image → the model predicts the class → the Grad-CAM heatmap appears alongside.
+  No frontend skills needed.
+
+
+Phase 8 — Report & GitHub Portfolio
+We'll write a clean README, organize the code into proper folders, and generate a PDF report
+ summarizing the whole project — methodology, results, conclusions. This is what an employer or 
+ professor reads.
+
+Phase 9 — Deployment
+Hugging Face Spaces lets you deploy a Gradio app for free in minutes. 
+The result is a live public link — the best possible thing to put in a portfolio or a CV.

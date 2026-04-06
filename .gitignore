@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Lung Cancer Detection — .gitignore
+# Author: Ahmed Mohamed Abdelhady
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Dataset — too large for GitHub (15,000 images)
+data/
+
+# Saved model weights — too large for GitHub
+saved_models/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.jupyter/
+*.ipynb_checkpoints
+
+# Logs
+*.log

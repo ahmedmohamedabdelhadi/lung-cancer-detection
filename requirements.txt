@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Lung Cancer Detection — Reproducible Environment
+# ─────────────────────────────────────────────────────────────────────────────
+# To recreate the environment:
+#   conda create -n lung_cancer python=3.9.18
+#   conda activate lung_cancer
+#   pip install -r requirements.txt
+#
+# GPU setup (must be installed separately via conda):
+#   conda install cudatoolkit=11.2 cudnn=8.1 -c conda-forge
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core deep learning
+tensorflow==2.10.0
+tensorflow-gpu==2.10.0
+
+# Data handling
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# Image processing
+Pillow==9.4.0
+opencv-python==4.7.0.72
+
+# Visualization
+matplotlib==3.7.1
+
+# Web UI
+gradio==3.50.2
+huggingface_hub==0.20.3
+
+# Notebook
+jupyter==1.0.0
+ipykernel==6.22.0
