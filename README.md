@@ -91,7 +91,7 @@ lung-cancer-detection/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/lung-cancer-detection.git
+git clone https://github.com/ahmedmohamedabdelhadi/lung-cancer-detection.git
 cd lung-cancer-detection
 ```
 
